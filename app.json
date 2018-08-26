@@ -11,8 +11,14 @@
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#F23657"
+    },
+    "ios": {
+      "supportsTablet":true
+    },
+    "android": {
+      "package": "com.dilrong.todolist"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
